@@ -6,7 +6,9 @@ import { MiComponente } from './components/mi-componente/mi-componente.component
 import { MenuComponent } from './components/menu/menu.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { ButtomComponent } from './components/buttom/buttom.component';
-
+import { SectionComponent } from './components/section/section.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,8 +16,9 @@ import { ButtomComponent } from './components/buttom/buttom.component';
     MenuComponent,
     CardsComponent,
     ButtomComponent,
-    
-
+    SectionComponent,
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule

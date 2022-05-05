@@ -1,0 +1,71 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: var(--padding);
+    width: 80%;
+    background-color: #505053;
+    z-index: 2;
+}
+
+header .botones_prev_next, .container section header .suscribcion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .botones_prev_next span {
+    cursor: pointer;
+}
+
+header .botones_prev_next span.btn_prev {
+    margin-right: 1em;
+}
+
+header .suscribcion .mejora_cuenta {
+    margin-right: 1.5em;
+}
+
+header .suscribcion .mejora_cuenta button {
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    width: 250px;
+    padding: 0.8em 0;
+    color: #ffffff;
+    border-radius: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+header .suscribcion .mejora_cuenta button:hover {
+    transform: scale(1.1);
+}
+
+header .suscribcion .perfil {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+    width: auto;
+    padding: .4em 5px;
+    border-radius: 30px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+header .suscribcion .perfil .circulo {
+    background-color: #333333;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo, .nombre {
+    margin-right: 5px;
+}
