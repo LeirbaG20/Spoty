@@ -8,6 +8,7 @@ import { Track } from 'src/model/track';
 })
 export class CardsComponent implements OnInit {
   @Input() track?: Track;
+  
   constructor() { }
 
   ngOnInit(): void {
