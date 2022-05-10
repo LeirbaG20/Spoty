@@ -1,0 +1,10 @@
+<div class="container">
+    <h1 class="tittle">Lista Novedades</h1>
+    <div class="listaNovedades">
+        <app-cards *ngFor="let novedad of listNov" [track]="novedad"></app-cards>
+    </div>
+    <h1>Lista Urban</h1>
+    <div class="listaUrban">
+        <app-cards *ngFor="let urban of listUrb" [track]="urban"></app-cards>
+    </div>
+</div>
