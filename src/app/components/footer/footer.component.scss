@@ -1,0 +1,36 @@
+footer {
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: var(--padding);
+    border-top: 1px solid #282828;
+    color: #ffffff;
+}
+
+footer .controles {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding-bottom: .5em;
+}
+
+footer .controles img {
+    margin: 0 .5em;
+}
+
+footer .progreso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .progreso .barra_progreso {
+    width: 40%;
+    height: 5px;
+    background-color: #282828;
+    border-radius: var(--radius);
+    margin: 0 1em;
+}
