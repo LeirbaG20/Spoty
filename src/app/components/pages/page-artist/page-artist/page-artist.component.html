@@ -1,0 +1,10 @@
+<div *ngIf="(artistaList$ | async)" class="content">
+    <div  *ngFor="let user of artistaList$  | async" class="table">
+        <div>{{artista.id}}</div>
+        <div>{{artista.name}}</div>
+        <div>{{artista.nacionality}}</div>
+        <div>
+            <app-form-button textButton="Editar" (onPressMyButton)="goTo(artista.id)"></app-form-button>
+        </div>
+    </div>
+</div> 

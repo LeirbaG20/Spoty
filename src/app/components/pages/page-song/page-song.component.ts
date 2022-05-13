@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Artista } from 'src/model/artista';
 
 @Component({
   selector: 'app-page-song',

@@ -12,6 +12,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { AppRoutingModule } from './app-routing.module';
 import { PageHomeComponent } from './components/pages/page-home/page-home.component';
+import { PageArtistComponent } from './components/pages/page-artist/page-artist/page-artist.component';
+import { FormButtonComponent } from './components/form-button/form-button/form-button.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +24,9 @@ import { PageHomeComponent } from './components/pages/page-home/page-home.compon
     SectionComponent,
     FooterComponent,
     HeaderComponent,
-    PageHomeComponent
+    PageHomeComponent,
+    PageArtistComponent,
+    FormButtonComponent
   ],
   imports: [
     BrowserModule, AppRoutingModule, HttpClientModule, FormsModule
