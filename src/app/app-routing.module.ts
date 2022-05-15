@@ -7,8 +7,6 @@ const routes: Routes = [
   { path: '', component: PageHomeComponent},
   { path: 'artist', component: PageArtistComponent},
   // { path: 'artist/create', component: },
-
-
 ];
 
 @NgModule({

@@ -24,16 +24,9 @@ export class PageArtistComponent implements OnInit {
     this.artistaList$ = this.artistaService.getArtistas();
   }
 
-  onPressButton() {
-    // if (this.artista.id) {
-    //   this.artistaService.updateArtista({artista: Artista}).subscribe(response => {
-    //     this.route.navigate(['/artistas']);
-    //   });
-    // } else {
-    //   this.artistaService.createArtista(this.artista).subscribe(response => {
-    //     this.route.navigate(['/artistas']);
-    //   });
-    // }   
+  goTo(path: string) {
+    console.log(path);
+    this.route.navigate([path]);
   }
 
 }
